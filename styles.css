@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #fefefe; /* Off-white for a clean, elegant background */
+}
+
+.navbar {
+    background-color: #4a3d3d; /* Slightly lighter for contrast */
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #ffffff; /* White for text contrast */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-left: 1px solid #6c5c5c; /* Lighter taupe for border */
+}
+
+#overview {
+    background-color: #ffffff; /* Clean white for overview */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile-box {
+    position: absolute;
+    left: 0;
+    width: 28%;
+    background-color: #f8f1e1; /* Cream shade for profile box */
+    color: #212529; /* Dark text for contrast */
+    border-radius: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.profile img {
+    width: 180px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #4c4c4c; /* Dark grey for readability */
+    margin-bottom: 20px;
+}
+
+.additional-content {
+    width: 70%;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fbf8f6; /* Light backdrop for additional content */
+    color: #333333; /* Dark text for contrast */
+    border-radius: 5px;
+    margin-left: 430px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section {
+    padding: 5px;
+    background-color: #ffffff; /* Light cream for sections */
+    border-radius: 10px;
+}
+
+.profile-container {
+    width: 100%;
+    text-align: center;
+}
+
+.education-experience {
+    overflow: hidden;
+}
+
+.education {
+    float: left;
+    width: calc(50% - 15px);
+    background-color: #f8f1e1; /* Cream shade for education */
+    color: #4c4c4c; /* Dark text */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.skills-image {
+    float: right;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.experience {
+    float: right;
+    width: calc(50% - 15px);
+    background-color: #f8f1e1; /* Same cream shade for uniformity */
+    color: #4c4c4c; /* Dark text */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.experience-image {
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.projects-container {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.project-box {
+    width: calc(50% - 10px);
+    float: left;
+    background-color: #f5e6d3; /* Changed to lighter cream */
+    color: #4c4c4c; /* Dark text */
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+    min-height: 240px;
+    margin: 0 5px 10px;
+    display: inline-block;
+    border: 1px solid #e2c9b1; /* Subtle border */
+}
+
+.project-image {
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.project-text {
+    float: left;
+    width: 65%;
+    height: 150px;
+    text-align: left;
+}
+
+.project-description {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.research-contact {
+    overflow: hidden;
+}
+
+.research {
+    float: left;
+    width: calc(50% - 15px);
+    background-color: #f3e8d4; /* Soft beige for research */
+    color: #333333; /* Dark text */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.contact {
+    float: right;
+    width: calc(50% - 15px);
+    background-color: #f9f3e7; /* Soft beige for contact */
+    color: #333333; /* Dark text */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: #3f3333; /* Darker for better separation */
+    text-align: center;
+    padding: 5px 0;
+    white-space: nowrap;
+    line-height: 40px;
+}
+
+.footer img {
+    display: inline-block;
+    padding: 5px 5px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border-left: 1px solid #6c5c5c; /* Slightly lighter taupe for border */
+}
+
+.footer img:first-child {
+    border-left: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .navbar a {
+        display: block;
+        padding: 10px 0;
+        border-left: none;
+        border-top: 1px solid #6c5c5c; /* For vertical stacking */
+    }
+
+    .profile-box {
+        width: 100%;
+        margin-left: 0;
+        position: relative; /* Remove absolute positioning */
+        margin-bottom: 10px;
+    }
+
+    .additional-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .education, .experience {
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .projects-container {
+        width: 100%;
+    }
+
+    .project-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .research, .contact {
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer img {
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+    }
+}
