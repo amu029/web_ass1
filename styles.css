@@ -5,14 +5,12 @@ body {
     margin: 0;
     background-color: #fefefe; 
 }
-
 .navbar {
     background-color: #4a3d3d; 
     text-align: center;
     overflow: hidden;
     padding: 10px 0;
 }
-
 .navbar a {
     display: inline-block;
     color: #ffffff; 
@@ -22,13 +20,11 @@ body {
     font-weight: bold;
     border-left: 1px solid #6c5c5c; 
 }
-
 #overview {
     background-color: #ffffff; 
     border-radius: 5px;
     overflow: hidden;
 }
-
 .profile-box {
     position: absolute;
     left: 0;
@@ -41,24 +37,20 @@ body {
     overflow: hidden;
     vertical-align: top;
 }
-
 .profile img {
     width: 180px;
     height: 150px;
     margin-top: 10px;
 }
-
 .profile h1 {
     font-size: 24px;
     margin: 10px 0 5px;
 }
-
 .profile p {
     font-size: 14px;
     color: #4c4c4c; 
     margin-bottom: 20px;
 }
-
 .additional-content {
     width: 70%;
     padding: 10px;
@@ -73,13 +65,11 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-
 .section {
     padding: 5px;
     background-color: #ffffff; 
     border-radius: 10px;
 }
-
 .profile-container {
     width: 100%;
     text-align: center;
@@ -88,7 +78,6 @@ body {
 .education-experience {
     overflow: hidden;
 }
-
 .education {
     float: left;
     width: calc(50% - 15px);
@@ -101,7 +90,6 @@ body {
     margin-left: 10px;
     margin-right: 5px;
 }
-
 .skills-image {
     float: right;
     margin-right: 10px;
@@ -110,7 +98,6 @@ body {
     margin-left: 10px;
     border-radius: 50%;
 }
-
 .experience {
     float: right;
     width: calc(50% - 15px);
@@ -123,7 +110,6 @@ body {
     margin-right: 10px;
     margin-left: 5px;
 }
-
 .experience-image {
     float: left;
     margin-right: 10px;
@@ -132,14 +118,12 @@ body {
     margin-left: 10px;
     border-radius: 50%;
 }
-
 .projects-container {
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
     overflow: hidden;
 }
-
 .project-box {
     width: calc(50% - 10px);
     float: left;
@@ -153,21 +137,18 @@ body {
     display: inline-block;
     border: 1px solid #e2c9b1; 
 }
-
 .project-image {
     float: left;
     width: 30%;
     height: 150px;
     margin-right: 10px;
 }
-
 .project-text {
     float: left;
     width: 65%;
     height: 150px;
     text-align: left;
 }
-
 .project-description {
     font-size: 14px;
     line-height: 1.5;
@@ -176,7 +157,6 @@ body {
 .research-contact {
     overflow: hidden;
 }
-
 .research {
     float: left;
     width: calc(50% - 15px);
@@ -188,7 +168,6 @@ body {
     margin-left: 10px;
     margin-right: 5px;
 }
-
 .contact {
     float: right;
     width: calc(50% - 15px);
@@ -200,7 +179,6 @@ body {
     margin-right: 10px;
     margin-left: 5px;
 }
-
 .footer {
     background-color: #3f3333; 
     text-align: center;
@@ -208,7 +186,6 @@ body {
     white-space: nowrap;
     line-height: 40px;
 }
-
 .footer img {
     display: inline-block;
     padding: 5px 5px;
@@ -217,11 +194,9 @@ body {
     vertical-align: middle;
     border-left: 1px solid #6c5c5c; 
 }
-
 .footer img:first-child {
     border-left: none;
 }
-
 /* Mobile responsiveness */
 @media (max-width: 600px) {
     .navbar a {
@@ -230,40 +205,33 @@ body {
         border-left: none;
         border-top: 1px solid #6c5c5c; 
     }
-
     .profile-box {
         width: 100%;
         margin-left: 0;
         position: relative; 
         margin-bottom: 10px;
     }
-
     .additional-content {
         width: 100%;
         margin-left: 0;
     }
-
     .education, .experience {
         float: none;
         width: 100%;
         margin: 10px 0;
     }
-
     .projects-container {
         width: 100%;
     }
-
     .project-box {
         width: 100%;
         margin: 10px 0;
     }
-
     .research, .contact {
         float: none;
         width: 100%;
         margin: 10px 0;
     }
-
     .footer img {
         width: 20px;
         height: 20px;
